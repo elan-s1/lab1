@@ -10,18 +10,19 @@ int main()
 	cout << "please enter number 2 :"; 
 	cin >> number2;
 	product = number1 * number2; 
-	cout<< "the product is " << product; 
+	cout<< "the product is " << product<< endl; 
 
 	cout << "this is task 2 \n";
-	int basesalary, totalsales, commissionrate, product, pay;
+	double basesalary, totalsales, commissionrate, product2, pay;
 	cout << "please enter the base salary: ";
 	cin >> basesalary; 
 	cout << "please enter the total sales: "; 
 	cin >> totalsales; 
 	cout << "please enter the commission rate: "; 
-	product = totalsales * commissionrate;
-	pay = basesalary + product;
-	cout << "the salespersons pay is: " << pay;
+	cin >> commissionrate;
+	product2 = totalsales * commissionrate;
+	pay = basesalary + product2;
+	cout << "the salespersons pay is: " << pay << endl;
 
 	cout << "this is task 3 \n";
 	int width, length, areaft,areainches,tiles,tilesneeded; 
@@ -30,10 +31,10 @@ int main()
 	cout << "please enter the length in feet: ";
 	cin >> length; 
 	areaft = width * length; 
-	areainches = areaft * 12; 
+	areainches = areaft * 144; 
 	tiles = 6 * 6;
 	tilesneeded = areainches / tiles;
-	cout << "you need this number of tiles: " << tilesneeded;
+	cout << "you need this number of tiles: " << tilesneeded << endl;
 
 	return 0; 
 }
