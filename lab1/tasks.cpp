@@ -31,6 +31,7 @@ int main()
 	cout << "please enter the length in feet: ";
 	cin >> length; 
 	areaft = width * length; 
+	cout << "the area in feet is: " << areaft << endl;
 	areainches = areaft * 144; 
 	tiles = 6 * 6;
 	tilesneeded = areainches / tiles;
