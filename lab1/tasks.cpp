@@ -37,5 +37,15 @@ int main()
 	tilesneeded = areainches / tiles;
 	cout << "you need this number of tiles: " << tilesneeded << endl;
 
+	cout << "this is task 4 \n";
+	int edge, sideSurface, cubeSurface, volumeCube;
+	cout << "please enter the edge of the cube: ";
+	cin >> edge;
+	sideSurface = edge * edge; 
+	cubeSurface = sideSurface * 6; 
+	cout << "the surface of the cube is: " << cubeSurface<< endl;
+	volumeCube = edge * edge * edge;
+	cout << "the volume of the cube is: " << volumeCube;
+
 	return 0; 
 }
